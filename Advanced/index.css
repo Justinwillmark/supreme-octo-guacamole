@@ -1,0 +1,141 @@
+body{
+    background-color: rgba(252, 242, 228, 0.747);
+}
+
+.container{
+    border: 1px solid white;
+    height: 95vh;
+    width: 195vh;
+    background-image: url(https://res.cloudinary.com/dmbzrcclk/image/upload/v1619084221/skateboard_sport_icon_playful_man_sketch_cartoon_character_6847529_1_mg2emh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: transparent;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.myhead{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 400px 0 0;
+}
+
+.myhead li {
+    display: inline;
+    padding: 0 0 0 50px;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+.head li {
+    display: inline;
+    padding: 0 0 0 40px;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+.nav-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#tryforfree {
+    background-color: black;
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: black;
+}
+
+#tryforfree:active,
+#tryforfree:focus,
+#tryforfree:hover {
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #fff;
+
+    color: #fff;
+}
+.display{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+   padding-right: 300px; 
+}
+.skate{
+    padding-top: 100px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.wood{
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+}
+.order{
+    padding-top: 30px;
+    font-size: 27px;
+    font-weight: bold;
+}
+span{
+    background-color: rgb(245, 84, 26);
+    border-radius: 50%;
+    border: 1px solid rgb(245, 84, 26);
+    height: 100rem;
+}
+.top{
+    padding-top: 100px;
+    display: flex;
+  
+}
+.middle{
+    padding-top: 50px;
+    display: flex;
+    
+}
+.bottom{
+    padding-top: 50px;
+    display: flex;
+}
+.main{
+    padding-top: 4px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sub{
+    padding-top: 4px;
+    padding-left: 10px;
+}
+.low{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 100px;
+}
+.lower{
+    padding-right: 600px;
+}
+.brand{
+    font-size: 25px;
+    font-weight: bold;
+}
+.fame{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+}
+.party{
+    font-weight: bold;
+    color: rgb(228, 222, 222);
+}
