@@ -1,27 +1,42 @@
-   .firstSection {
+    
+    
+    
+    
+    .firstSection {
     background-image: url('https://res.cloudinary.com/not-set/image/upload/v1618843674/futurelabs/Rectangle_3_2_c9ygpj.png'); 
     height: 100vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
     }
     
     .secondSection {
-    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1619619375/futurelabs/Rectangle_2_8_ghforc.png');
+    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1619619867/futurelabs/Rectangle_2_10_pkjbbz.png');
     height: 100vh;
+    background-repeat: no-repeat;
     }
     
     
     .thirdSection {
-    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1619619867/futurelabs/Rectangle_2_10_pkjbbz.png');
+    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1619687212/futurelabs/Rectangle_2_11_dza76s.png');
     height: 100vh;
+    background-repeat: no-repeat;
     }
     
     .fourthSection {
-    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1618911810/futurelabs/Frame_2_1_e8xhqd.png');    
+    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1619687321/futurelabs/Frame_2_2_k7va0t.png');    
     height: 100vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
     }
+
+    
+
     
     .fifthSection {
-    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1618911991/futurelabs/Rectangle_5_je2bsb.png');    
-    height: 100vh;
+    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1619687383/futurelabs/Rectangle_5_1_gqc2f2.png');    
+    height: 10vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
     }
     
     
