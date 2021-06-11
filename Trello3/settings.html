@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Trello3</title>
+  </head>
+  <body>
+
+    <section class="bulk">
+
+        <span style="font-size:30px;cursor:pointer" class="ex" onclick="openNav()">&#9776;</span>
+
+        <div id="mySidenav" class="contain">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="contain-content">
+
+                <div class="one-man text-center">
+                    <div class="two">
+                        <img src="https://res.cloudinary.com/not-set/image/upload/v1623155917/futurelabs/Group_28_tpsnfv.png" alt="">
+                    </div>
+                    <div class="manny">
+                        <!-- <a href="convert.html"> -->
+                            <img src="https://res.cloudinary.com/not-set/image/upload/v1623153917/futurelabs/Group_29_xbbaqf.png" alt="">
+                            <h5 class="sidetext">Convert</h5> 
+                        <!-- </a> -->
+                    </div>
+                </div>
+
+                <div class="text-center same">
+                    <div class="normal pt-4">
+                        <img src="https://res.cloudinary.com/not-set/image/upload/v1623154793/futurelabs/Wallet_a2hu7z.png" alt="">
+                        <h5 class="sidetext">Accounts</h5>
+                    </div>
+                </div>
+
+                <div class="text-center same">
+                    <div class="normal1 pt-3">
+                        <img src="https://res.cloudinary.com/not-set/image/upload/v1623155272/futurelabs/Group_45_soxqef.png" alt="">
+                        <h5 class="sidetext ">Transactions</h5>
+                    </div>
+                </div>
+
+                <div class="same text-center " id="settings">
+                    <div class="normal2 pt-3">
+                        <img src="https://res.cloudinary.com/not-set/image/upload/v1623155360/futurelabs/Group_30_1_gbbbva.png" alt="">
+                        <h5 class="sidetext settings">Settings</h5>
+                    </div>
+                </div>
+
+                <div class="same text-center">
+                    <div class="normal3 pt-3">
+                        <img src="https://res.cloudinary.com/not-set/image/upload/v1623155406/futurelabs/Group_33_vyxf7l.png" alt="">
+                        <h5 class="sidetext">Log out</h5>
+                    </div>
+                </div>
+
+                <div class="same-last text-center"></div>  
+            </div>
+        </div>
+
+
+        <container>
+            <div class="row justify-content-end">
+                <div class="col-md-2 col-sm-12 mt-2 rounded" id="size"> 
+                    <!-- <img src="https://res.cloudinary.com/not-set/image/upload/v1623079701/futurelabs/Ellipse_15_xlcora.png" alt=""> -->
+                    <p class="pa">Welcome, Annointing Triumph</p>
+                </div>
+            </div>
+        </container>
+
+
+   
+
+
+
+        <div class="container main rounded pb-1" id="card-box">
+
+            <div class="row1">
+                <div class="bg-warning bar px-2">Profile</div>
+                <div class="bar text-dark bar-grey px-2">Security</div>
+                <div class="bar text-dark bar-grey bar-last px-2">Notifications</div>
+            </div>
+
+    
+            <div class="secondary-bulk">
+
+                
+            <div class="row ml-4" id="row2">
+                <div class="col-md-2 col-sm-12">
+                    <div class="avatar">
+                      <img src="https://res.cloudinary.com/not-set/image/upload/v1623073947/futurelabs/Ellipse_17_hyqqju.png" alt="">
+                    </div>
+                    <div class="data">
+                      <h4 class="profile">Profile picture</h4>
+                      <p class="para">Choose a photo to use as your avatar</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-100"></div>
+
+
+            <div class="row ml-4 pt-4" id="row3">
+
+                <div class="col-md-3 rounded">
+                    <h4 class="profile2">Full name</h4>
+                    <p class="para2">Customize your account name</p>
+                   <input type="text"> 
+                </div>
+
+                <div class="col-md-3 rounded" id="middle">
+                    <h4 class="profile2">Profession</h4>
+                    <p class="para2">What keeps your passion alive</p>
+                   <input type="text"> 
+                </div>
+
+                <div class="col-md-3 rounded">
+                    <h4 class="profile2">Gender</h4>
+                    <p class="para2">How would you like to identify</p>
+                   <input type="text"> 
+                </div>
+
+            </div>
+
+
+            <div class="row ml-4 mt-5" id="row4">
+                <div class="col-md-3 rounded first">
+                    <h4 class="profile2">Date of birth</h4>
+                    <p class="para2">When is your birthday?</p>
+                   <input type="text"> 
+                </div>
+
+                <div class="col-md-3 rounded">
+                    <h4 class="profile2">Postal Adresss</h4>
+                    <p class="para2">We may send you dollars</p>
+                   <input type="text"> 
+                </div>
+            </div>
+
+            <!-- secondary-bulk closing tag -->
+            </div> 
+
+        
+            
+            <button type="button" class="btn btn-warning btn-lg btn-block mt-3 finish"><strong>Save</strong></button>
+            
+        </div> 
+        
+        
+    </section>
+
+    
+
+
+    
+
+
+</section>
+
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementsByClassName("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementsByClassName("main").style.marginLeft= "0";
+    }
+    </script>
+
+<!--<script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+</script>-->
+
+
+    <!-- <h1>Hello, world!</h1> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
