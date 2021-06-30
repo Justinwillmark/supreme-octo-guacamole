@@ -1,0 +1,150 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+#sectionOneText {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: white;
+}
+
+#sectionOneButton {
+    width: 13.9rem;
+    height: 3.34rem;
+    left: 7.1rem;
+    top: 49.52rem;
+    border: 0.093rem solid #9C269E;
+    box-sizing: border-box;
+    border-radius: 0.4375;
+
+
+   font-style: normal;
+   font-weight: bold;
+   font-size: 1rem;
+   line-height: 1.1875rem;
+   color: #FFFFFF;
+
+}
+
+#categories {
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+ 
+#sectionTwoHeading {
+    font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 28px;
+
+   color: #000000;
+}
+
+#sectionTwoParagraph {
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+color: #565353;
+
+/*margin-top: 50px;*/
+
+}
+
+#sectionTwoButton {
+    width: 13.9rem;
+    height: 3.34rem;
+    border: 0.093rem solid #9C269E;
+    box-sizing: border-box;
+    border-radius: 0.4375;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+
+    /*margin-top: 50px;*/
+
+
+}
+
+#sectionThreeHeading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+ 
+    color: #000000;
+
+}
+
+#sectionThreeParagraph {
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+color: #565353;
+
+/*margin-top: 50px;*/
+
+}
+
+#sectionFourParagraph {
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+color: #565353;}
+
+#sectionFourHeading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+ 
+    color: #000000;
+
+}
+
+#sectionThreeHeading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+ 
+    color: #FFFFFF;
+
+}
+
+#sectionThreeParagraph {
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;}
+
+#sectionThreeButton {
+    /*width: 66px;
+height: 25px;
+left: 196px;
+top: 2764px;*/
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+color: #780096;
+
+}
+
+

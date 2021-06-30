@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.whole {
+    height: 3000px;
+    width: 100vw;
+    background-color: whitesmoke
+}
+
+.one {
+    width: 100vw;
+    height: 600px;
+    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1619107902/futurelabs/good_fzsyjl.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.two {
+    width: 100vw;
+    height: 600px;
+
+}
+
+.three {
+    width: 100vw;
+    height: 600px;
+    background-color: whitesmoke;
+}
+
+.four {
+    width: 100vw;
+    height: 600px;
+    background-color: wheat;
+}
+
+.five {
+    width: 100vw;
+    height: 600px;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+
+    
+}
+
+.logo {
+    height: 55px;
+    width: 55px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 25px;
+    top: 16px;
+
+}
+
+.blue {
+    /*background-color: cadetblue;*/
+    padding-left: 25px;
+    width: 600px;
+    position: relative;
+    top: 200px;
+    
+}
+
+.topbar {
+    /*background-color: brown;*/
+    /*width: 100vw;
+    height: 30px;*/
+}
+
+ul {
+    margin-left: 800px;
+    margin-right: 20px;
+    position: relative;
+    top: -30px;
+}
+
+div ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+li {
+    margin-right: 10px;
+    list-style: none;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    
+
+}
+
+.picture {
+    position: relative;
+    right: 10px;
+    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1619103157/futurelabs/chart_eiuqj1.jpg');
+}
+
+
+li .signup {
+    background-color: blue;
+    height: 50px;
+
+}
+
+.start {
+    height: 250px;
+    width: 100vw;
+    background-color: rgb(124, 211, 226);
+    position: relative;
+    top: -85px;
+}
+
+p {
+    font-size: 40px;
+    margin-left: 60px;
+}
+
+div .inside {
+    background-color: rgb(59, 59, 212);
+    width: 300px;
+    margin-left: 55px;
+    border-radius: 70px;
+}
+
+.boxes {
+    position: relative;
+    /*background-color: darkgreen;*/
+    justify-content: space-between;
+    align-content: center;
+    
+    
+}
+
+.box1 {
+    width: 30px;
+    height: 30px;
+    /*background-color: chartreuse;*/
+}
+
+.image {
+    width:50vw;
+    height:50vh;
+    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1619102677/futurelabs/download_a8xaab.jpg');
+    background-repeat: no-repeat;
+
+}

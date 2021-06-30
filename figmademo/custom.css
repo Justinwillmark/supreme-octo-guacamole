@@ -1,0 +1,41 @@
+    
+    
+    
+    
+    .firstSection {
+    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1618843674/futurelabs/Rectangle_3_2_c9ygpj.png'); 
+    height: 100vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    }
+    
+    .secondSection {
+    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1620040089/futurelabs/Rectangle_2_12_lwalhy.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    }
+    
+    
+    .thirdSection {
+    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1620041931/futurelabs/Rectangle_3_4_mlnspf.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    }
+    
+    .fourthSection {
+    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1619687321/futurelabs/Frame_2_2_k7va0t.png');    
+    height: 100vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    }
+
+
+    .fifthSection {
+    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1619687383/futurelabs/Rectangle_5_1_gqc2f2.png');    
+    height: 10vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    }
+    
+    
+    
